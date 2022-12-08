@@ -1,4 +1,4 @@
-// 12/6/22
+// 12/6/22 C#
 // Complete the Add() method so that it will calculate the sum of two numbers given as arguments.
 // Overload it in order to do the same operation with double type values.
 
@@ -28,4 +28,19 @@ namespace SoloLearn
             return x+y;
         }
     }
+}
+
+
+
+// 12/8/22 CSS
+// Define a new font named Test
+
+@font-face
+ {    
+font-family
+: "test";
+   
+src
+: url("test.otf");
+
 }
