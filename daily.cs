@@ -42,5 +42,19 @@ font-family
    
 src
 : url("test.otf");
-
 }
+
+
+
+// 12/9/22 C#
+// What is the output of this code?
+static void Print(int a) {
+  Console.WriteLine(a*a);
+}
+static void Print(double a) {
+  Console.WriteLine(a+a);
+}
+static void Main(string[] args) {
+  Print(3);
+}
+9
