@@ -31,7 +31,6 @@ namespace SoloLearn
 }
 
 
-
 // 12/8/22 CSS
 // Define a new font named Test
 
@@ -39,11 +38,9 @@ namespace SoloLearn
  {    
 font-family
 : "test";
-   
 src
 : url("test.otf");
 }
-
 
 
 // 12/9/22 C#
@@ -58,3 +55,45 @@ static void Main(string[] args) {
   Print(3);
 }
 9
+
+
+// 12/10/22 C#
+// Write a program to take N number as input and recursively calculate the sum of all numbers from 1 to N.
+// Sample Input
+// 5
+// Sample Output
+// 15
+// Explanation
+// 5+4+3+2+1 = 15.
+// Don't forget about base case.
+// C#
+// 123456789101112131415161718192021222324
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine(Sum(number));
+        }
+        static int Sum(int num)
+        {
+            if (num == 1) {
+            	return 1;
+            }
+            else {
+            	return num + Sum(num - 1);
+            }
+        }
+    }
+}
