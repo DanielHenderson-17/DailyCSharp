@@ -30,19 +30,6 @@ namespace SoloLearn
     }
 }
 
-
-// 12/8/22 CSS
-// Define a new font named Test
-
-@font-face
- {    
-font-family
-: "test";
-src
-: url("test.otf");
-}
-
-
 // 12/9/22 C#
 // What is the output of this code?
 static void Print(int a) {
@@ -55,7 +42,6 @@ static void Main(string[] args) {
   Print(3);
 }
 9
-
 
 // 12/10/22 C#
 // Write a program to take N number as input and recursively calculate the sum of all numbers from 1 to N.
